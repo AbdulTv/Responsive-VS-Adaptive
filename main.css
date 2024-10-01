@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(21, 62, 63);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(51, 115, 117);
+    width: 100%;
+    height: 75px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1100px; 
+    color: #fff;  
+}
+
+a {
+    color: #fff;
+}
+
+.input1 {
+    background-color: rgb(51, 115, 117);
+    width: 220px;
+    height: 30px;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 20px;
+    padding-left: 15px;
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.box {
+    background-color: rgb(51, 115, 117);
+    width: 264px;
+    height: 250px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.box:hover {
+    background-color: darkgoldenrod;
+    width: 264px;
+    height: 250px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.father-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    position: absolute;
+    top: 200px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+img {
+    position: relative;
+    left: -9px;
+    bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(51, 115, 117);
+        width: 100%;
+        height: 75px;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 430px;       
+        color: #fff;  
+    }
+    
+    .father-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-bottom: 50px;
+    }
+
+    .input1 {
+        background-color: rgb(51, 115, 117);
+        width: 725px;
+        height: 30px;
+        position: absolute;
+        z-index: 2;
+        top: 100px;
+        left: 20px;
+        padding-left: 15px;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(51, 115, 117);
+        width: 100%;
+        height: 75px;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 70px;       
+        color: #fff;  
+    }
+    
+    .father-box {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 200px;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .h2-nav {
+        font-size: 18px;
+    }
+
+    a {
+        color: #fff;
+        font-size: 13px;
+    }
+
+    .input1 {
+        background-color: rgb(51, 115, 117);
+        width: 280px;
+        height: 30px;
+        position: absolute;
+        z-index: 2;
+        top: 100px;
+        left: 20px;
+        padding-left: 15px;
+        color: #fff;
+    }
+}
